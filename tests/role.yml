@@ -2,6 +2,6 @@
 - hosts: all
   become: true
   roles:
-    - ufw
+    - ansible-ufw
   vars:
     ssh_port: 2222
