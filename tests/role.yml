@@ -1,0 +1,7 @@
+---
+- hosts: all
+  become: true
+  roles:
+    - ufw
+  vars:
+    ssh_port: 2222

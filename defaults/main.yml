@@ -1,0 +1,5 @@
+---
+
+# SSH Port number using for internal services configuration
+# (Ex.: firewall, sshd)
+ssh_port: 22
